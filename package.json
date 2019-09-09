@@ -16,11 +16,9 @@
   "dependencies": {
     "express": "^4.15.0"
   } 
-  "scripts": {
-  ...
+  "scripts"{
   "clean": "rmdir /s /q node_modules",
   "reinstall": "npm run clean && npm install",
   "rebuild": "npm run clean && npm install && rmdir /s /q dist && npm run build --prod",
-  ...
   }
 } 
