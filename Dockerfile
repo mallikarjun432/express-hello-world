@@ -1,5 +1,5 @@
 FROM node:7.7-alpine
-MAINTAINER Jatin Shridhar <shridhar.jatin@gmail.com>
+MAINTAINER Narala Mallikarjuna <mnarala92@gmail.com>
 
 # install deps
 ADD package.json /tmp/package.json
