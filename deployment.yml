@@ -12,6 +12,6 @@ spec:
       containers: 
       - name: hello-world 
 #        image: gcr.io/phineasrt/hello-world-image:v1 # image we pushed
-        image: nginx
+        image: hello-world
         ports:
         - containerPort: 80
